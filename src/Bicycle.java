@@ -9,9 +9,9 @@ public class Bicycle extends WheelableTransport {
         for (int i = 0; i < getWheelsCount(); i++) {
             updateTyre();
         }
-        @Override
-        public void updateTyre() {
-            System.out.println("Меняем покрышку велосипеда");
-        }
+    }
+
+    public void updateTyre() {
+        System.out.println("Меняем покрышку велосипеда");
     }
 }
